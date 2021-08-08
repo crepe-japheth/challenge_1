@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+}
+
+.container{
+    display: flex;
+    margin-top: 200px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+h1{
+    font-family: Lexend Deca;
+    font-weight: 700;
+    padding: 15px;
+    font-size: large;
+}
+p{
+    font-family: Big Shoulders Display;
+    font-weight: 400;
+    padding: 20px;
+    font-size: medium;
+}
+.sedans{
+    background-color: hsl(31, 77%, 52%);
+
+}
+.suvs{
+    background-color: hsl(184, 100%, 22%)
+}
+.luxury{
+    background-color:hsl(179, 100%, 13%);
+}
+button{
+    color: #000;
+    margin-left: 20px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    padding: 8px;
+    border-radius: 50PX;
+    border-color: #fff;
+}
+button:hover{
+    background-color: transparent;
+}
+
+/*the mobile styling section*/
+@media (max-width: 375px){
+    .container{
+        flex-direction: column;
+    }
+}
